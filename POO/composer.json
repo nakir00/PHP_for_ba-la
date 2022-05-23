@@ -1,0 +1,12 @@
+{
+    "name": "naby/poo",
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "models/",
+            "App\\Core\\": "core/",
+            "App\\Controllers\\": "controllers/",
+            "App\\Exceptions\\": "exceptions/"
+        }
+    },
+    "require": {}
+}

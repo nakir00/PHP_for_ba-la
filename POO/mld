@@ -1,0 +1,6 @@
+user(id,login,password,grade,ville,quartier,role)
+classe (id,libelle,niveau,filiere)
+module(id,libelle)
+professeur_module(#professeur_id,#module_id)
+cours(id,date_cours,heure_debut,heure_fin,#classe_id,#module_id,#professeur_id)
+inscription(id,date_inscription,annee,#etudiant_id,#classe_id)
